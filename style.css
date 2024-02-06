@@ -4,7 +4,7 @@
 :root {
     --roxo-mais-escuro: #290469;
     --roxo-medio: #7B2CBF;
-    --roxo-mais-claro: #E0AAFF;
+    --roxo-mais-claro: #ebcffbc4;
     --preto: #000000;
     --branco: #FFFFFF;
 }
@@ -17,6 +17,8 @@
 body {
     font-family: 'DM Sans', Arial, Helvetica, sans-serif;
     color: var(--roxo-mais-escuro);
+    background-color: var(--roxo-mais-claro);
+
 }
 
 .topo {
@@ -69,8 +71,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: fit-content;
+    width: 100%;
     padding: 80px;
+    background-color: var(--branco);
 }
 
 .header img {
@@ -86,7 +89,7 @@ a {
 
 h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 100px;
     width: 90%;
     line-height: 110%;
 }
@@ -200,6 +203,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: start;
+    background-color: var(--branco);
+
 }
 
 #sobre-nos .esquerda {
@@ -211,7 +216,7 @@ h3 {
 }
 
 #sobre-nos .esquerda img {
-    width: 600px;
+    width: 570px;
 }
 
 #sobre-nos .direita {
@@ -221,6 +226,10 @@ h3 {
     width: 45%;
     gap: 36px;
     padding: 0 250px;
+}
+
+.imagem-do-topo{
+    width: 600px;
 }
 
 footer {
