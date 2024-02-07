@@ -11,23 +11,26 @@
 
 <body>
     <section class="topo">
-        <a href="index.html"><img src="images/favicon.svg" alt=""></a>
-        <ul>
-            <a href="index.html">
-                <li>Página inicial</li>
-            </a>
-            <a href="#produtos">
-                <li>Produtos</li>
-            </a>
-            <a href="#beneficios">
-                <li>Benefícios</li>
-            </a>
-            <a href="#sobre-nos">
-                <li>Sobre nós</li>
-            </a>
-           
-        </ul>
-    </section>
+    <a href="index.html"><img src="imagem-do-topo" alt="" /></a>
+    <nav class="menu-lateral">
+      <ion-icon
+            class="botao-menu-close"
+            name="close-outline"
+            onclick="toggleMenu()"></ion-icon>
+      <ul>
+          <a href="index.html"><li>Página inicial</li></a>
+        <a href="#produtos"><li>Produtos</li></a>
+        <a href="#beneficios"><li>Benefícios</li></a>
+        <a href="#sobre-nos"><li>Sobre nós</li></a>
+        <a class="botao-primario" href="">Comprar agora!</a>
+      </ul>
+    </nav>
+    <ion-icon
+      class="botao-menu"
+      name="menu-outline"
+      onclick="toggleMenu()"
+    ></ion-icon>
+  </section>
 
     <section class="header">
         <section class="esquerda">
@@ -143,10 +146,17 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-< script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </ script > 
-< script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </ script >
+<script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script> 
+<script nomodule  src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 </html>
 
 </body>
 
 </html>
+
+
+
+
+
+
