@@ -306,7 +306,7 @@ footer li:hover {
         width: 250px;
         height: 100%;
         background-color: var(--roxo-medio); /* Cor de fundo do menu */
-        color: #FFFFFF;
+        color: ;
         transition: left 0.3s ease;
         z-index: 1000; /* Garante que o menu esteja acima de outros elementos */
         flex-direction: column;
